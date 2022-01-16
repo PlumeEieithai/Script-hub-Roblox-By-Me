@@ -1,0 +1,358 @@
+local MrBeanscripthub = Instance.new("ScreenGui")
+local Mrbeanscripthub = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local frunkyfriday = Instance.new("TextButton")
+local Buildaboat = Instance.new("TextButton")
+local c00lgui = Instance.new("TextButton")
+local aherodestiny = Instance.new("TextButton")
+local auniversaltime = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local Phantomforce = Instance.new("TextButton")
+local Asenal = Instance.new("TextButton")
+local Backdoor = Instance.new("TextButton")
+local Bedwar = Instance.new("TextButton")
+local BloxFruitautofarm = Instance.new("TextButton")
+local InfYield = Instance.new("TextButton")
+local KingLegacy = Instance.new("TextButton")
+local Ninjalegends = Instance.new("TextButton")
+local Adoptme = Instance.new("TextButton")
+local genericroleplay = Instance.new("TextButton")
+local Dahood = Instance.new("TextButton")
+local badbuiness = Instance.new("TextButton")
+local feexplode = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+ 
+MrBeanscripthub.Name = "Mr Bean script hub"
+MrBeanscripthub.Parent = game.CoreGui
+MrBeanscripthub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Mrbeanscripthub.Name = "Mr bean script hub"
+Mrbeanscripthub.Parent = MrBeanscripthub
+Mrbeanscripthub.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+Mrbeanscripthub.BorderColor3 = Color3.new(1, 0, 0)
+Mrbeanscripthub.Position = UDim2.new(0.0133729503, 0, 0.186157525, 0)
+Mrbeanscripthub.Size = UDim2.new(0, 1165, 0, 410)
+Mrbeanscripthub.Active = true
+Mrbeanscripthub.Draggable = true
+
+ImageLabel.Parent = Mrbeanscripthub
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.Position = UDim2.new(0.00269035366, 0, 0.00724617578, 0)
+ImageLabel.Size = UDim2.new(0, 288, 0, 235)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=8548521422"
+
+frunkyfriday.Name = "frunky friday"
+frunkyfriday.Parent = Mrbeanscripthub
+frunkyfriday.BackgroundColor3 = Color3.new(1, 1, 1)
+frunkyfriday.Position = UDim2.new(0.62555176, 0, 0.647699475, 0)
+frunkyfriday.Size = UDim2.new(0, 200, 0, 60)
+frunkyfriday.Font = Enum.Font.SourceSans
+frunkyfriday.Text = "frunky friday"
+frunkyfriday.TextColor3 = Color3.new(0, 0, 0)
+frunkyfriday.TextSize = 14
+frunkyfriday.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+Buildaboat.Name = "Build a boat"
+Buildaboat.Parent = Mrbeanscripthub
+Buildaboat.BackgroundColor3 = Color3.new(1, 1, 1)
+Buildaboat.Position = UDim2.new(0.623224616, 0, 0.0291255321, 0)
+Buildaboat.Size = UDim2.new(0, 200, 0, 49)
+Buildaboat.Font = Enum.Font.SourceSans
+Buildaboat.Text = "Build a boat"
+Buildaboat.TextColor3 = Color3.new(0, 0, 0)
+Buildaboat.TextSize = 14
+Buildaboat.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+c00lgui.Name = "c00lgui"
+c00lgui.Parent = Mrbeanscripthub
+c00lgui.BackgroundColor3 = Color3.new(1, 1, 1)
+c00lgui.Position = UDim2.new(0.625033081, 0, 0.820392609, 0)
+c00lgui.Size = UDim2.new(0, 200, 0, 62)
+c00lgui.Font = Enum.Font.SourceSans
+c00lgui.Text = "C00lgui"
+c00lgui.TextColor3 = Color3.new(0, 0, 0)
+c00lgui.TextSize = 14
+c00lgui.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+aherodestiny.Name = "a hero destiny"
+aherodestiny.Parent = Mrbeanscripthub
+aherodestiny.BackgroundColor3 = Color3.new(1, 1, 1)
+aherodestiny.Position = UDim2.new(0.250023752, 0, 0.64597255, 0)
+aherodestiny.Size = UDim2.new(0, 200, 0, 63)
+aherodestiny.Font = Enum.Font.SourceSans
+aherodestiny.Text = "a hero destiny"
+aherodestiny.TextColor3 = Color3.new(0, 0, 0)
+aherodestiny.TextSize = 14
+aherodestiny.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Solx69/Shit-Boy-Hub-Main/main/Master.lua'))();
+end)
+
+auniversaltime.Name = "a universal time"
+auniversaltime.Parent = Mrbeanscripthub
+auniversaltime.BackgroundColor3 = Color3.new(1, 1, 1)
+auniversaltime.Position = UDim2.new(0.438941926, 0, 0.169898883, 0)
+auniversaltime.Size = UDim2.new(0, 200, 0, 56)
+auniversaltime.Font = Enum.Font.SourceSans
+auniversaltime.Text = "a universal time "
+auniversaltime.TextColor3 = Color3.new(0, 0, 0)
+auniversaltime.TextSize = 14
+auniversaltime.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SenseiJoshy/CastAways/main/Main/CastAways"))()
+end)
+
+TextLabel.Parent = Mrbeanscripthub
+TextLabel.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel.Position = UDim2.new(0.830724835, 0, 0.0240822025, 0)
+TextLabel.Size = UDim2.new(0, 185, 0, 50)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "Mr Bean Script Hub V1"
+TextLabel.TextColor3 = Color3.new(1, 0, 0)
+TextLabel.TextSize = 17
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_2.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_2.Position = UDim2.new(0.0324324332, 0, 1.03999996, 0)
+TextLabel_2.Size = UDim2.new(0, 170, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Made By"
+TextLabel_2.TextColor3 = Color3.new(1, 0, 0)
+TextLabel_2.TextSize = 14
+
+TextLabel_3.Parent = TextLabel
+TextLabel_3.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_3.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_3.Position = UDim2.new(0, 0, 4.88252258, 0)
+TextLabel_3.Size = UDim2.new(0, 185, 0, 141)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Thanks Nigga For use my script hub"
+TextLabel_3.TextColor3 = Color3.new(0, 1, 0.886275)
+TextLabel_3.TextSize = 14
+
+TextLabel_4.Parent = TextLabel
+TextLabel_4.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_4.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_4.Position = UDim2.new(0, 0, 1.25999999, 0)
+TextLabel_4.Size = UDim2.new(0, 170, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Pleum"
+TextLabel_4.TextColor3 = Color3.new(1, 0, 0)
+TextLabel_4.TextSize = 14
+
+TextLabel_5.Parent = TextLabel
+TextLabel_5.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_5.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_5.Position = UDim2.new(0, 0, 2.46000004, 0)
+TextLabel_5.Size = UDim2.new(0, 170, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "discord invite"
+TextLabel_5.TextColor3 = Color3.new(1, 0, 0)
+TextLabel_5.TextSize = 14
+
+TextLabel_6.Parent = TextLabel
+TextLabel_6.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_6.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_6.Position = UDim2.new(0, 0, 3.70000005, 0)
+TextLabel_6.Size = UDim2.new(0, 194, 0, 50)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "https://discord.gg/cQdmdBq5nz"
+TextLabel_6.TextColor3 = Color3.new(1, 0, 0)
+TextLabel_6.TextSize = 14
+
+Phantomforce.Name = "Phantom force"
+Phantomforce.Parent = Mrbeanscripthub
+Phantomforce.BackgroundColor3 = Color3.new(1, 1, 1)
+Phantomforce.Position = UDim2.new(0.438027531, 0, 0.480358005, 0)
+Phantomforce.Size = UDim2.new(0, 200, 0, 57)
+Phantomforce.Font = Enum.Font.SourceSans
+Phantomforce.Text = "Phantom force"
+Phantomforce.TextColor3 = Color3.new(0, 0, 0)
+Phantomforce.TextSize = 14
+Phantomforce.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+Asenal.Name = "Asenal"
+Asenal.Parent = Mrbeanscripthub
+Asenal.BackgroundColor3 = Color3.new(1, 1, 1)
+Asenal.Position = UDim2.new(0.250882119, 0, 0.480273664, 0)
+Asenal.Size = UDim2.new(0, 200, 0, 58)
+Asenal.Font = Enum.Font.SourceSans
+Asenal.Text = "Asenal"
+Asenal.TextColor3 = Color3.new(0, 0, 0)
+Asenal.TextSize = 14
+Asenal.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Backdoor.Name = "Backdoor"
+Backdoor.Parent = Mrbeanscripthub
+Backdoor.BackgroundColor3 = Color3.new(1, 1, 1)
+Backdoor.Position = UDim2.new(0.251008004, 0, 0.17317073, 0)
+Backdoor.Size = UDim2.new(0, 200, 0, 56)
+Backdoor.Font = Enum.Font.SourceSans
+Backdoor.Text = "Backdoor"
+Backdoor.TextColor3 = Color3.new(0, 0, 0)
+Backdoor.TextSize = 14
+Backdoor.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+end)
+
+Bedwar.Name = "Bed war "
+Bedwar.Parent = Mrbeanscripthub
+Bedwar.BackgroundColor3 = Color3.new(1, 1, 1)
+Bedwar.Position = UDim2.new(0.438143224, 0, 0.0268292688, 0)
+Bedwar.Size = UDim2.new(0, 200, 0, 50)
+Bedwar.Font = Enum.Font.SourceSans
+Bedwar.Text = "Bed war"
+Bedwar.TextColor3 = Color3.new(0, 0, 0)
+Bedwar.TextSize = 14
+Bedwar.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+BloxFruitautofarm.Name = "Blox Fruit auto farm"
+BloxFruitautofarm.Parent = Mrbeanscripthub
+BloxFruitautofarm.BackgroundColor3 = Color3.new(1, 1, 1)
+BloxFruitautofarm.Position = UDim2.new(0.250882149, 0, 0.329185009, 0)
+BloxFruitautofarm.Size = UDim2.new(0, 200, 0, 50)
+BloxFruitautofarm.Font = Enum.Font.SourceSans
+BloxFruitautofarm.Text = "Blox fruit"
+BloxFruitautofarm.TextColor3 = Color3.new(0, 0, 0)
+BloxFruitautofarm.TextSize = 14
+BloxFruitautofarm.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+InfYield.Name = "InfYield"
+InfYield.Parent = Mrbeanscripthub
+InfYield.BackgroundColor3 = Color3.new(1, 1, 1)
+InfYield.Position = UDim2.new(0.251596183, 0, 0.0192370843, 0)
+InfYield.Size = UDim2.new(0, 202, 0, 53)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "INF YIELD"
+InfYield.TextColor3 = Color3.new(0, 0, 0)
+InfYield.TextSize = 14
+InfYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+KingLegacy.Name = "King Legacy"
+KingLegacy.Parent = Mrbeanscripthub
+KingLegacy.BackgroundColor3 = Color3.new(1, 1, 1)
+KingLegacy.Position = UDim2.new(0.249165401, 0, 0.821439743, 0)
+KingLegacy.Size = UDim2.new(0, 200, 0, 61)
+KingLegacy.Font = Enum.Font.SourceSans
+KingLegacy.Text = "King Legacy"
+KingLegacy.TextColor3 = Color3.new(0, 0, 0)
+KingLegacy.TextSize = 14
+KingLegacy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+end)
+
+Ninjalegends.Name = "Ninja legends"
+Ninjalegends.Parent = Mrbeanscripthub
+Ninjalegends.BackgroundColor3 = Color3.new(1, 1, 1)
+Ninjalegends.Position = UDim2.new(0.438815951, 0, 0.32766217, 0)
+Ninjalegends.Size = UDim2.new(0, 200, 0, 50)
+Ninjalegends.Font = Enum.Font.SourceSans
+Ninjalegends.Text = "Ninja legends"
+Ninjalegends.TextColor3 = Color3.new(0, 0, 0)
+Ninjalegends.TextSize = 14
+Ninjalegends.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/PtMbfSkM", true))()
+end)
+
+Adoptme.Name = "Adopt me"
+Adoptme.Parent = Mrbeanscripthub
+Adoptme.BackgroundColor3 = Color3.new(1, 1, 1)
+Adoptme.Position = UDim2.new(0.437975317, 0, 0.642821431, 0)
+Adoptme.Size = UDim2.new(0, 200, 0, 62)
+Adoptme.Font = Enum.Font.SourceSans
+Adoptme.Text = "Adopt me"
+Adoptme.TextColor3 = Color3.new(0, 0, 0)
+Adoptme.TextSize = 14
+Adoptme.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+genericroleplay.Name = "generic roleplay"
+genericroleplay.Parent = Mrbeanscripthub
+genericroleplay.BackgroundColor3 = Color3.new(1, 1, 1)
+genericroleplay.Position = UDim2.new(0.624015987, 0, 0.174765021, 0)
+genericroleplay.Size = UDim2.new(0, 200, 0, 55)
+genericroleplay.Font = Enum.Font.SourceSans
+genericroleplay.Text = "generic roleplay"
+genericroleplay.TextColor3 = Color3.new(0, 0, 0)
+genericroleplay.TextSize = 14
+genericroleplay.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Boardbot/grg/main/Boardbot's%20GRG%20GUI%20v2.lua"))()
+end)
+
+Dahood.Name = "Da hood"
+Dahood.Parent = Mrbeanscripthub
+Dahood.BackgroundColor3 = Color3.new(1, 1, 1)
+Dahood.Position = UDim2.new(0.62555176, 0, 0.478002936, 0)
+Dahood.Size = UDim2.new(0, 200, 0, 56)
+Dahood.Font = Enum.Font.SourceSans
+Dahood.Text = "da hood"
+Dahood.TextColor3 = Color3.new(0, 0, 0)
+Dahood.TextSize = 14
+Dahood.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+badbuiness.Name = "bad buiness"
+badbuiness.Parent = Mrbeanscripthub
+badbuiness.BackgroundColor3 = Color3.new(1, 1, 1)
+badbuiness.Position = UDim2.new(0.438750327, 0, 0.820726633, 0)
+badbuiness.Size = UDim2.new(0, 200, 0, 61)
+badbuiness.Font = Enum.Font.SourceSans
+badbuiness.Text = "bad buiness"
+badbuiness.TextColor3 = Color3.new(0, 0, 0)
+badbuiness.TextSize = 14
+badbuiness.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+end)
+
+feexplode.Name = "fe explode"
+feexplode.Parent = Mrbeanscripthub
+feexplode.BackgroundColor3 = Color3.new(1, 1, 1)
+feexplode.Position = UDim2.new(0.624693394, 0, 0.332445383, 0)
+feexplode.Size = UDim2.new(0, 200, 0, 49)
+feexplode.Font = Enum.Font.SourceSans
+feexplode.Text = "fe explode"
+feexplode.TextColor3 = Color3.new(0, 0, 0)
+feexplode.TextSize = 14
+feexplode.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ULj0MXAy", true))()
+end)
+
+ImageLabel_2.Parent = Mrbeanscripthub
+ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_2.Position = UDim2.new(0.00182736118, 0, 0.712653995, 0)
+ImageLabel_2.Size = UDim2.new(0, 289, 0, 115)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=8555455644"
+
+TextLabel_7.Parent = Mrbeanscripthub
+TextLabel_7.BackgroundColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_7.BorderColor3 = Color3.new(0.105882, 0.113725, 0.101961)
+TextLabel_7.Position = UDim2.new(0.00268573035, 0, 0.591757178, 0)
+TextLabel_7.Size = UDim2.new(0, 288, 0, 50)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Hello! ,Cheater"
+TextLabel_7.TextColor3 = Color3.new(1, 0, 0)
+TextLabel_7.TextSize = 31
